@@ -30,16 +30,23 @@ class Game: NSObject {
 
   func switchTurn() {
     switch turn {
-    case STTButton.Player.First:
-      turn = STTButton.Player.Second
-    case STTButton.Player.Second:
-      turn = STTButton.Player.First
+    case .First:
+      turn = .Second
+    case .Second:
+      turn = .First
     default:
-      turn = STTButton.Player.First
+      turn = .First
     }
   }
 
   func buttonAtIndex(index: Int) -> STTButton {
     return self.buttons[index]
+  }
+
+  func clear() {
+    for button in buttons {
+      button.active = false
+    }
+    turn = .First
   }
 }

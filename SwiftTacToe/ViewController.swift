@@ -56,7 +56,15 @@ class ViewController: UIViewController {
           button.setTitleColor(color, forState: UIControlState.Normal)
         }
       }
+      else {
+        button.setTitle("", forState: UIControlState.Normal)
+      }
     }
+  }
+
+  @IBAction func clear(sender : UIButton) {
+    self.game.clear()
+    updateUI()
   }
 }
 

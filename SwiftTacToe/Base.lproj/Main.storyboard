@@ -135,6 +135,20 @@
                                     <action selector="buttonWasPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Imf-qk-wCX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfp-ck-uad">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <rect key="frame" x="20" y="406" width="280" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Op-DR-oiW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -149,6 +163,7 @@
                                 <exclude reference="WES-Ec-5GB"/>
                                 <exclude reference="WyL-wg-Mhs"/>
                                 <exclude reference="T0V-Ch-Vzx"/>
+                                <exclude reference="Lfp-ck-uad"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -162,6 +177,7 @@
                                 <include reference="WES-Ec-5GB"/>
                                 <include reference="WyL-wg-Mhs"/>
                                 <include reference="T0V-Ch-Vzx"/>
+                                <include reference="Lfp-ck-uad"/>
                             </mask>
                         </variation>
                     </view>
