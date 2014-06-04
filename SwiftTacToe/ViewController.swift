@@ -38,9 +38,7 @@ class ViewController: UIViewController {
   }
 
   @IBAction func buttonWasPressed(sender : UIButton) {
-    let a = NSArray(array: self.buttons)
-    let index = a.indexOfObject(sender)
-    self.game.pressButton(index)
+    self.game.pressButton(NSArray(array: self.buttons).indexOfObject(sender))
     updateUI()
   }
 
