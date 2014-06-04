@@ -48,13 +48,9 @@ class ViewController: UIViewController {
     for button in buttons {
       let b = self.game.buttonAtIndex(NSArray(array: self.buttons).indexOfObject(button))
       if b.active {
-        if let label = b.player?.label() {
-          button.setTitle(label, forState: UIControlState.Normal)
-          button.titleLabel.font = UIFont.systemFontOfSize(80)
-        }
-        if let color = b.player?.color() {
-          button.setTitleColor(color, forState: UIControlState.Normal)
-        }
+        button.setTitle(b.player?.label(), forState: UIControlState.Normal)
+        button.titleLabel.font = UIFont.systemFontOfSize(80)
+        button.setTitleColor(b.player?.color(), forState: UIControlState.Normal)
       }
       else {
         button.setTitle("", forState: UIControlState.Normal)
