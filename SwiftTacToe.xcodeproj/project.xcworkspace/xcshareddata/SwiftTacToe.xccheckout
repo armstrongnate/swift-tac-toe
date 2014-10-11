@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>23D2DCE1-FFAE-498A-B63D-A460416E34FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftTacToe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C89AE3F-CA69-4CD7-9B70-D2F8E4C1BB78</key>
+		<string>ssh://github.com/n8armstrong/swift-tac-toe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftTacToe.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C89AE3F-CA69-4CD7-9B70-D2F8E4C1BB78</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/n8armstrong/swift-tac-toe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C89AE3F-CA69-4CD7-9B70-D2F8E4C1BB78</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C89AE3F-CA69-4CD7-9B70-D2F8E4C1BB78</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftTacToe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
